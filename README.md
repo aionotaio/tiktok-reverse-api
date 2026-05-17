@@ -42,7 +42,7 @@ python register_device/register_device.py
 > - Use `urlparse()` if you already have a URL with query parameters
 > - Use `urlencode()` if your parameters are stored in a dict
 2. Collect your request headers
-3. Call the `get_sign_params()` method from `/web/sign_params.py`
+3. Call the `sign_headers()` method from `/mobile/sign_headers.py`
 
 
 ## FAQ
